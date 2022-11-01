@@ -4,9 +4,7 @@
 
 ## App Demo:
 
-<p float="left">
-	<img src ="/quiz_screen.png" width ="96" />
-	<img src ="/result_screen.png" width ="96" />
-</p>
+<img src ="/quiz_screen.png" height="480px"><img src ="/result_screen.png" width ="480px">
+
 
 

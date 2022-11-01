@@ -4,8 +4,6 @@
 
 ## App Demo:
 
-![Quiz Screen](quiz_screen.png)
-
-![Result Screen](quiz_screen.png)
+![Quiz Screen](quiz_screen.png) [Result Screen](quiz_screen.png)
 
 

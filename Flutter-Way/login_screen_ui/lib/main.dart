@@ -25,7 +25,14 @@ class MyApp extends StatelessWidget {
             fontWeight: FontWeight.bold,
           ),
           button: TextStyle(
-            color: Colors.black,
+            color: kPrimaryColor,
+          ),
+        ),
+        inputDecorationTheme: InputDecorationTheme(
+          enabledBorder: UnderlineInputBorder(
+            borderSide: BorderSide(
+              color: Colors.white.withOpacity(.15),
+            ),
           ),
         ),
       ),
@@ -93,7 +100,7 @@ class WelcomeScreen extends StatelessWidget {
                         children: [
                           Text(
                             'START LEARNING',
-                            style: Theme.of(context).textTheme.button,
+                            style: Theme.of(context).textTheme.button!.copyWith(color: Colors.black),
                           ),
                           const SizedBox(width: 10),
                           const Icon(

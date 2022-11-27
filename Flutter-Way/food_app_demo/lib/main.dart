@@ -39,41 +39,97 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Padding(
-            padding: const EdgeInsets.only(top: 20, right: 20),
-            child: Align(
-              alignment: Alignment.topRight,
-              child: SvgPicture.asset(
-                'assets/icons/menu.svg',
-                height: 11,
+      body: SafeArea(
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Padding(
+              padding: const EdgeInsets.only(top: 20, right: 20),
+              child: Align(
+                alignment: Alignment.topRight,
+                child: SvgPicture.asset(
+                  'assets/icons/menu.svg',
+                  height: 11,
+                ),
               ),
             ),
-          ),
-          Padding(
-            padding: const EdgeInsets.all(20),
-            child: Text(
-              'Simple way to find\nTasty food',
-              style: Theme.of(context).textTheme.headline5,
+            Padding(
+              padding: const EdgeInsets.all(20),
+              child: Text(
+                'Simple way to find\nTasty food',
+                style: Theme.of(context).textTheme.headline5,
+              ),
             ),
-          ),
-          SingleChildScrollView(
-            scrollDirection: Axis.horizontal,
-            child: Row(
-              children: const [
-                CategoryTitle(title: 'All', active: true),
-                CategoryTitle(title: 'Chinese'),
-                CategoryTitle(title: 'Italian'),
-                CategoryTitle(title: 'Korean'),
-                CategoryTitle(title: 'Vietnamese'),
-                CategoryTitle(title: 'Frence'),
-              ],
+            SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Row(
+                children: const [
+                  CategoryTitle(title: 'All', active: true),
+                  CategoryTitle(title: 'Chinese'),
+                  CategoryTitle(title: 'Italian'),
+                  CategoryTitle(title: 'Korean'),
+                  CategoryTitle(title: 'Vietnamese'),
+                  CategoryTitle(title: 'Frence'),
+                ],
+              ),
             ),
-          ),
-          //TODO: 4:19 youtube
-        ],
+            Container(
+              alignment: Alignment.centerLeft,
+              margin: const EdgeInsets.symmetric(vertical: 20, horizontal: 20),
+              padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 20),
+              height: 50,
+              width: double.infinity,
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(20),
+                border: Border.all(color: kBorderColor),
+              ),
+              child: SvgPicture.asset('assets/icons/search.svg'),
+            ),
+            Container(
+              margin: const EdgeInsets.only(left: 20),
+              height: 400,
+              width: 270,
+              child: Stack(
+                children: [
+                  //Big light background
+                  Positioned(
+                    right: 0,
+                    bottom: 0,
+                    child: Container(
+                      height: 380,
+                      width: 250,
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(34),
+                        color: kPrimaryColor.withOpacity(.06),
+                      ),
+                    ),
+                  ),
+                  Container(
+                    height: 180,
+                    width: 180,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      color: kPrimaryColor.withOpacity(.15),
+                    ),
+                  ),
+                  Positioned(
+                    top: 0,
+                    left: -50,
+                    child: Container(
+                      height: 184,
+                      width: 276,
+                      decoration: const BoxDecoration(
+                        image: DecorationImage(
+                          image: AssetImage('assets/images/image_1.png'),
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }

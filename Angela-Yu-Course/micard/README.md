@@ -1,16 +1,22 @@
-# micard
+# Section 6: MiCard - How to Build Beautiful UIs with Flutter Widgets
 
-A new Flutter project.
+## Knowledge
 
-## Getting Started
+* [MiCard Stub Project](https://github.com/londonappbrewery/mi_card_flutter)
+* [Widgets Catalogue](https://flutter.dev/docs/development/ui/widgets)
+* [Container Documentation](https://docs.flutter.io/flutter/widgets/Container-class.html)
+* [Column Documentation](https://docs.flutter.io/flutter/widgets/Column-class.html)
+* [Row Documentation](https://docs.flutter.io/flutter/widgets/Row-class.html)
+* [Tomek's Flutter Layout Cheat Sheet](https://medium.com/flutter-community/flutter-layout-cheat-sheet-5363348d037e)
+* [Download fancy fonts from fonts.google.com](https://fonts.google.com/)
+* [How to add fonts to the pubspec.yaml file](https://flutter.dev/docs/cookbook/design/package-fonts)
+* [The Icons Class](https://docs.flutter.io/flutter/material/Icons-class.html)
+* [Material Design Icons](https://material.io/tools/icons/?style=baseline)
+* [Icons on materialpalette.com](https://www.materialpalette.com/icons)
+* [Card Class Documentation](https://docs.flutter.io/flutter/material/Card-class.html)
+* [The Padding Class](https://docs.flutter.io/flutter/widgets/Padding-class.html)
+* [The ListTile Class](https://docs.flutter.io/flutter/material/ListTile-class.html)
+* [Flutter's Horizontal Rule - The Divider](https://docs.flutter.io/flutter/material/Divider-class.html)
+* [MiCard Completed Project](https://github.com/londonappbrewery/MiCard-Completed)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Appendix

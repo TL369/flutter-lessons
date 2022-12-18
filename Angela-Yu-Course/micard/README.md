@@ -1,4 +1,4 @@
-# Section 6: MiCard - How to Build Beautiful UIs with Flutter Widgets
+# Section : MiCard - How to Build Beautiful UIs with Flutter Widgets
 
 ## Knowledge
 

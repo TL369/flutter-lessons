@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -28,6 +30,15 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.teal,
+      body: SafeArea(
+        child: Container(
+          margin: EdgeInsets.symmetric(vertical: 50, horizontal: 10),
+          width: 100,
+          height: 100,
+          color: Colors.white,
+          child: Text('Hello'),
+        ),
+      ),
     );
   }
 }

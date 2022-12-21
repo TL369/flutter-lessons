@@ -1,16 +1,16 @@
-# dicee
+# Section 7 Dicee - Building Apps with State
 
-A new Flutter project.
 
-## Getting Started
+## Knowledge:
+* [Dicee Stub Project](https://github.com/londonappbrewery/dicee-flutter)
+* [Expanded Class](https://docs.flutter.io/flutter/widgets/Expanded-class.html)
+* [Image Widget Documentation](https://docs.flutter.io/flutter/widgets/Image-class.html)
+* [FlatButton Documentation](https://docs.flutter.io/flutter/material/FlatButton-class.html)
+* [Run code snippets on DartPad](https://dartpad.dartlang.org/)
+* [Dart Math Library](https://api.dartlang.org/stable/2.2.0/dart-math/dart-math-library.html)
+* [Random Class](https://api.dartlang.org/stable/2.2.0/dart-math/Random-class.html)
+* [Dicee Completed Project](https://github.com/londonappbrewery/Dicee-Flutter-Completed)
 
-This project is a starting point for a Flutter application.
+## Appendix:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## SnapShot:

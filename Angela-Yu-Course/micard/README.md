@@ -13,12 +13,15 @@
 * [The Icons Class](https://docs.flutter.io/flutter/material/Icons-class.html)
 * [Material Design Icons](https://material.io/tools/icons/?style=baseline)
 * [Icons on materialpalette.com](https://www.materialpalette.com/icons)
-* [Card Class Documentation](https://docs.flutter.io/flutter/material/Card-class.html)
-* [The Padding Class](https://docs.flutter.io/flutter/widgets/Padding-class.html)
-* [The ListTile Class](https://docs.flutter.io/flutter/material/ListTile-class.html)
-* [Flutter's Horizontal Rule - The Divider](https://docs.flutter.io/flutter/material/Divider-class.html)
+* [Card Class Documentation](https://api.flutter.dev/flutter/material/Card-class.html)
+* [The Padding Class](https://api.flutter.dev/flutter/widgets/Padding-class.html)
+* [The ListTile Class](https://api.flutter.dev/flutter/material/ListTile-class.html)
+* [Flutter's Horizontal Rule - The Divider](https://api.flutter.dev/flutter/material/Divider-class.html)
 * [MiCard Completed Project](https://github.com/londonappbrewery/MiCard-Completed)
 
 ## Appendix
 
->> Video 1.4
+1. [Challenge - Layouts](https://drive.google.com/uc?export=download&id=1k7oW5qVLJqzw_lEFsOFS_qKmkGjBX1pL)
+2. [Circle Avatar](https://api.flutter.dev/flutter/material/CircleAvatar-class.html)
+3. [Material Palette.com](https://www.materialpalette.com/)
+

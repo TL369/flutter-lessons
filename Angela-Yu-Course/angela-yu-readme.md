@@ -4,5 +4,6 @@
 * [MiCard App](micard/README.md)
 * [Dicee App](dicee/README.md)
 * [Xylophone App](xylophone/README.md)
+* [Quizzler App](quizzler/README.md)
 
 

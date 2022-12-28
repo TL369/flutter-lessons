@@ -22,9 +22,6 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-<<<<<<< HEAD
-    return Container();
-=======
     return Scaffold(
       backgroundColor: Colors.blueGrey,
       appBar: AppBar(
@@ -34,14 +31,9 @@ class HomePage extends StatelessWidget {
       ),
       body: const Center(
         child: Image(
-<<<<<<< HEAD
-          image: NetworkImage('https://www.w3schools.com/w3css/img_lights.jpg'),
-=======
           image: AssetImage('images/diamond.png'),
->>>>>>> angela
         ),
       ),
     );
->>>>>>> main
   }
 }

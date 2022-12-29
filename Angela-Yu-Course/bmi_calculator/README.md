@@ -1,16 +1,27 @@
-# bmi_calculator
+# BMI Calculator - Building Flutter UIs for Intermediates
 
-A new Flutter project.
+## Knowledge
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* [BMI Stub Project](https://github.com/londonappbrewery/bmi-calculator-flutter)
+* [Dribbble: Find Designers and Design inspiration](https://dribbble.com/)
+* [Ruben Vaalt's beautiful BMI Calculator Design](https://dribbble.com/shots/4585382-Simple-BMI-Calculator)
+* [Using Themes](https://flutter.dev/docs/cookbook/design/themes)
+* [The Flutter Cookbook](https://flutter.dev/docs/cookbook)
+* [ThemeData Class](https://api.flutter.dev//flutter/material/ThemeData-class.html)
+* [Find Color HEX codes easily with the Colorzilla plugin](http://www.colorzilla.com/)
+* [The Color Class](https://docs.flutter.io/flutter/dart-ui/Color-class.html)
+* [How do HEX codes for with colours?](https://stackoverflow.com/questions/22239803/how-does-hexadecimal-color-work)
+* [The Key Class](https://api.flutter.dev/flutter/foundation/Key-class.html)
+* [When to Use Keys - Flutter Widgets 101 Ep. 4](https://www.youtube.com/watch?v=kn0EOS-ZiIc)
+* [Dart Language Tour: Final and Const](https://www.dartlang.org/guides/language/language-tour#final-and-const)
+* [Font Awesome Flutter Package](https://pub.dartlang.org/packages/font_awesome_flutter)
+* [The GestureDetector Class](https://api.flutter.dev/flutter/widgets/GestureDetector-class.html)
+* [Slider Class](https://api.flutter.dev/flutter/material/Slider-class.html)
+* [FloatingActionButton Class](https://api.flutter.dev/flutter/material/FloatingActionButton-class.html)
+* [ShapeBorder Class](https://api.flutter.dev/flutter/painting/ShapeBorder-class.html)
+* [RawMaterialButton Class](https://api.flutter.dev/flutter/material/RawMaterialButton-class.html)
+* [Navigating between Screens on Flutter](https://flutter.dev/docs/cookbook/navigation/navigation-basics)
+* [LAB Navigation Demo](https://github.com/londonappbrewery/Navigation-Flutter-Demo)
+* [Navigate with Named Routes](https://flutter.dev/docs/cookbook/navigation/named-routes)
+* [Definition of the Body Mass Index (BMI)](https://en.wikipedia.org/wiki/Body_mass_index)
+* [BMI Completed Project](https://github.com/londonappbrewery/BMI-Calculator-Completed)
